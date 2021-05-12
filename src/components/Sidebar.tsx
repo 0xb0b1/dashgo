@@ -14,7 +14,7 @@ export function Sidebar() {
           <Text fontWeight="bold" color="gray.400" fontSize="small">
             GERAL
           </Text>
-          <Stack spacing="4" mt="8" algin="stretch">
+          <Stack spacing="4" mt="8" align="stretch">
             <Link display="flex" algin="center">
               <Icon as={RiDashboardLine} fontSize="20" />
               <Text ml="4" fontWeight="medium">
