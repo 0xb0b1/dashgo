@@ -79,6 +79,56 @@ export default function UserList() {
                 </Button>
               </Td>
             </Tbody>
+            <Tbody>
+              <Td px="6">
+                <Checkbox colorScheme="pink"></Checkbox>
+              </Td>
+              <Td>
+                <Box>
+                  <Text fontWeight="bold">Paulo Vicente</Text>
+                  <Text fontSize="sm" color="gray.300">
+                    vcente82@gmail.com
+                  </Text>
+                </Box>
+              </Td>
+              <Td>04 de abril 2021</Td>
+              <Td>
+                <Button
+                  as="a"
+                  size="sm"
+                  fontSize="sm"
+                  colorScheme="purple"
+                  leftIcon={<Icon as={RiPencilLine} fontSize="20" />}
+                >
+                  Editar
+                </Button>
+              </Td>
+            </Tbody>
+            <Tbody>
+              <Td px="6">
+                <Checkbox colorScheme="pink"></Checkbox>
+              </Td>
+              <Td>
+                <Box>
+                  <Text fontWeight="bold">Paulo Vicente</Text>
+                  <Text fontSize="sm" color="gray.300">
+                    vcente82@gmail.com
+                  </Text>
+                </Box>
+              </Td>
+              <Td>04 de abril 2021</Td>
+              <Td>
+                <Button
+                  as="a"
+                  size="sm"
+                  fontSize="sm"
+                  colorScheme="purple"
+                  leftIcon={<Icon as={RiPencilLine} fontSize="20" />}
+                >
+                  Editar
+                </Button>
+              </Td>
+            </Tbody>
           </Table>
 
           <Pagination />
