@@ -15,7 +15,7 @@ export default function Pagination() {
       </Box>
 
       <Stack direction="row" spacing="2">
-        <PaginationItem number={1} isCurrent />
+        <PaginationItem number={1} />
         <PaginationItem number={2} />
         <PaginationItem number={3} />
         <PaginationItem number={4} />
