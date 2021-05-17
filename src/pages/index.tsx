@@ -8,18 +8,19 @@ export default function SignIn() {
       <Flex
         as="form"
         width="100%"
-        maxWidth={360}
+        maxWidth={380}
         bg="gray.800"
         p="8"
-        borderRadius={8}
+        borderRadius={12}
         flexDir="column"
       >
         <Stack spacing={4}>
+          <Input name="name" type="text" label="Nome" />
           <Input name="email" type="email" label="E-mail" />
           <Input name="password" type="password" label="Senha" />
         </Stack>
 
-        <Button type="submit" mt="6" colorScheme="pink" size="lg">
+        <Button type="submit" mt="8" colorScheme="pink" size="lg">
           Entrar
         </Button>
       </Flex>

@@ -1,7 +1,7 @@
-import { Stack, Button, Box } from "@chakra-ui/react";
+import { Stack, Box } from "@chakra-ui/react";
 import { PaginationItem } from "./PaginationItem";
 
-function Pagination() {
+export default function Pagination() {
   return (
     <Stack
       direction="row"
@@ -25,5 +25,3 @@ function Pagination() {
     </Stack>
   );
 }
-
-export default Pagination;

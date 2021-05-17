@@ -9,9 +9,9 @@ export function SearchBox() {
       py="4"
       px="8"
       ml="6"
-      maxWidth={400}
+      maxWidth={480}
       alignSelf="center"
-      color="gray.200"
+      color="gray.100"
       position="relative"
       bg="gray.800"
       borderRadius="full"
@@ -25,7 +25,7 @@ export function SearchBox() {
         _placeholder={{ color: "gray.400" }}
       />
 
-      <Icon as={RiSearchLine} fontSize="20" />
+      <Icon as={RiSearchLine} fontSize="20" alignSelf="center" />
     </Flex>
   );
 }
