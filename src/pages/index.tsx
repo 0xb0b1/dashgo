@@ -41,12 +41,6 @@ export default function SignIn() {
       >
         <Stack spacing={4}>
           <Input
-            name="name"
-            type="text"
-            label="Nome completo"
-            {...register("name")}
-          />
-          <Input
             name="email"
             type="email"
             label="E-mail"
