@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { useQuery } from "react-query";
 
 import {
   Box,
@@ -25,6 +24,13 @@ import { Sidebar } from "../../components/Sidebar";
 
 import { RiAddLine } from "react-icons/ri";
 import { useUsers } from "../../services/hooks/useUsers";
+
+interface User {
+  id: number;
+  name: string;
+  email: string;
+  createdAt: string;
+}
 
 export default function UserList() {
   const { data, isLoading, isFetching, error } = useUsers();
@@ -85,7 +91,7 @@ export default function UserList() {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {data.map((user) => (
+                  {data.map((user: User) => (
                     <Tr key={user.id}>
                       <Td px={["4", "4", "6"]}>
                         <Checkbox colorScheme="pink"></Checkbox>
