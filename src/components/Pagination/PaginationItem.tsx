@@ -9,7 +9,7 @@ export function PaginationItem({
   isCurrent = false,
   number,
 }: PaginationItemProps) {
-  if (isCurrent) {
+  if (isCurrent !== undefined) {
     return (
       <Button
         size="sm"
